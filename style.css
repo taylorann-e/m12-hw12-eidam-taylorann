@@ -104,6 +104,9 @@ body {
   .header__title {
     font-size: 2rem;
   }
+  .img_card__text {
+    font-size: 1rem; 
+  }
   .nav__container {
     width: 80vw;
     min-width: 300px;
@@ -132,7 +135,9 @@ body {
   .header__title {
     font-size: 1.5rem; 
   }
-
+  .img_card__text {
+    font-size: 0.9rem; 
+  }
   .nav__container {
     width: 100vw;
     grid-template-columns: repeat(2, 1fr); 
