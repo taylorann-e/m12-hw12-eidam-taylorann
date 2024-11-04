@@ -83,12 +83,14 @@ body {
   padding: 0 12px;
 }
 .img_card__container {
-  grid-area: img_container;
-  display: grid;
+  display: grid; 
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  grid-gap: 20px; 
   grid-auto-rows: 350px; 
+  grid-gap: 20px; 
 }
+
+
+
 
 .footer {
   display: grid;
