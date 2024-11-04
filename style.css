@@ -77,6 +77,10 @@ body {
 .img_card__img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  width: 100%; 
+  height: auto;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .img_card__text {
@@ -122,5 +126,25 @@ body {
       "nav"
       "img_container"
       "footer";
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 1.5rem; 
+  }
+
+  .nav__container {
+    width: 100vw;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .img_card__container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-auto-rows: auto; 
+  }
+
+  .footer {
+    padding: 1rem 0;
+    font-size: 0.8rem;
   }
 }
